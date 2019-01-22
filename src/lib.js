@@ -49,7 +49,6 @@ export function getCookieConsent() {
     key = localStorage.getItem(_cookieConsentKey);
   } catch (err) {} // eslint-disable-line no-empty
 
-  console.log('key:', key);
   return key === 'yes' ? true : key === null ? null : false;
 }
 

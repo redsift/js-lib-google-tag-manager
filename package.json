@@ -1,6 +1,6 @@
 {
   "name": "@redsift/js-lib-google-tag-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper library to setup Google Tag Manager.",
   "module": "dist/js-lib-google-tag-manager.esm.js",
   "jsnext:main": "dist/js-lib-google-tag-manager.esm.js",
