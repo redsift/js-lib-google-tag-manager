@@ -1,6 +1,6 @@
 {
   "name": "@redsift/js-lib-google-tag-manager",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Helper library to setup Google Tag Manager.",
   "module": "dist/js-lib-google-tag-manager.esm.js",
   "jsnext:main": "dist/js-lib-google-tag-manager.esm.js",
@@ -9,7 +9,7 @@
   "esnext": "src/index.js",
   "scripts": {
     "build": "rollup-bundler",
-    "prepublishOnly": "npm build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "google",
